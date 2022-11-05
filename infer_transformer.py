@@ -112,7 +112,7 @@ def main():
                   use_cuda=False,
                   reshape_transform=ReshapeTransform(model))
 
-    target_category = 2
+    target_category = 5
 
     grayscale_cam = cam(input_tensor=input_tensor, target_category=target_category)  # (1, 224, 224)
 
